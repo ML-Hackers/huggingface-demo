@@ -1,0 +1,30 @@
+dependencies:
+  - python=3.10
+  - pip
+  - cudatoolkit
+  - pip:
+      - "-f https://download.pytorch.org/whl/torch_stable.html"
+      - torch==2.0.1+cu118
+      - accelerate
+      - appdirs
+      - loralib
+      - bitsandbytes==0.39.1
+      - black
+      - 'black[jupyter]'
+      - datasets
+      - fire
+      - 'git+https://github.com/huggingface/peft.git'
+      - transformers>=4.31.0
+      - sentencepiece
+      - py7zr
+      - scipy
+      - optimum
+      - deepspeed
+      - trl
+      - sqlalchemy
+      - ipykernel
+      - azure-ai-ml
+      - azure-identity
+      - ipywidgets
+      - azureml-sdk
+name: hf
